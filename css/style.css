@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: 700;
+}
+body 
+{
+    font-family: 'Inter', sans-serif;
+    background: #F1F1F1;
+    line-height: 1.6;
+}
+a 
+{
+    text-decoration: none;
+}
+ul 
+{
+    list-style: none;
+}
+.con 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.top
+{
+    background: #088F33;
+    line-height: 50px;
+    color: #fff;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.social li 
+{
+    display: inline-block;
+}
+.social li a 
+{
+    display: block;
+    color: #088F33;
+    background: #fff;
+    width: 35px; height: 35px; border-radius: 50%;
+    line-height: 35px; text-align: center;
+}
+header 
+{
+    background: #0b732b;
+}
+nav ul li a{
+    color: #fff;
+    padding: 25px 12px;
+    display: block;
+}
+nav ul li a:hover 
+{
+    background: orange;
+}
+.logo 
+{
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    z-index: 99;
+}
+.logo img 
+{
+    border: 5px solid orange;
+    width: 170px;
+}
+.jc 
+{
+    justify-content: end;
+}
+.bg1 
+{
+    background: url(https://www.plannepal.com/uploads/2016/12/standard/39ef6e51859b4ddc54f8a8bd5621882f.jpg?ver=1481983050);
+    height: 80vh;
+    position: relative;
+}
+.search 
+{
+    width: 70%;
+    padding: 30px;
+    background: #ccc;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.about
+{
+    padding: 40px 0;
+}
+.about-left
+{
+    flex-basis: 75%;
+}
+.about-right
+{
+    flex-basis: 20%;
+}
+.about h2 
+{
+    background: #088F33;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.btn1 
+{
+    background: orange;
+    color: #fff;
+    padding: 10px;
+    float: right;
+}
